@@ -10,6 +10,7 @@ export function Hero() {
         sizes='100vw'
         className='fixed inset-x-0 z-[-1] size-full object-cover object-top brightness-75'
         quality={100}
+        priority
       />
       <div className=''>
         <h2 className='mb-20 text-center text-[2rem] uppercase tracking-wider text-white'>
