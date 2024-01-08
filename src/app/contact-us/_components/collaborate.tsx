@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import LsiiLogo from 'public/contact-us/lsii.png';
 import Sarah from 'public/contact-us/sarah.jpg';
 
 export function Collaborate() {
@@ -27,7 +28,7 @@ export function Collaborate() {
             <p className='mb-8 text-center text-[2rem] uppercase tracking-widest md:text-start'>
               (Founder)
             </p>
-            <p className='font-volkhov italic leading-[2] text-foreground/80'>
+            <p className='text-justify font-volkhov italic leading-[2] text-foreground/80'>
               Sarah Rosetta Aurelia is currently completing her final year of
               obtaining a BSc Neuroscience (Honours) at the University of St
               Andrews, United Kingdom. Sarah is extremely enthusiastic in
@@ -43,7 +44,17 @@ export function Collaborate() {
             </p>
           </div>
         </div>
-        <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-blue-800'>
+        <p className='flex flex-col items-start gap-x-4 text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-blue-800 sm:flex-row'>
+          <Image
+            src={LsiiLogo}
+            alt='Lsii Logo'
+            width='0'
+            height='0'
+            sizes='100vw'
+            placeholder='blur'
+            className='h-auto w-[5em] shrink-0'
+            quality={100}
+          />{' '}
           BiriWorld is powered & supported by PT Legal Spesialis India Indonesia
           (LSII), the corporation duly established under Indonesia Law with
           registration number: AHU- 0022860.AH.01.01.Tahun 2023

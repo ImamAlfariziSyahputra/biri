@@ -8,7 +8,7 @@ export function GetInTouch() {
   return (
     <section className='pb-36 pt-24'>
       <div className='mx-auto w-[min(1140px,90%)]'>
-        <h2 className='mx-auto mb-16 max-w-[570px] bg-[#800101] py-4 text-center text-5xl uppercase tracking-widest text-white'>
+        <h2 className='mx-auto mb-16 max-w-[570px] bg-[#800101] px-2 py-4 text-center text-4xl uppercase tracking-widest text-white sm:text-5xl'>
           Get in Touch
         </h2>
         <div className='grid grid-cols-1 items-center gap-8 md:grid-cols-[1fr,1.5fr,1fr] lg:grid-cols-[1fr,2fr,1fr]'>
