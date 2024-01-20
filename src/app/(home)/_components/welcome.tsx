@@ -14,7 +14,7 @@ export function Welcome() {
           OM SWASTIASTU –{' '}
           <span className='text-yellow-500'>WELCOME TO BIRI WORLD</span>
         </h3>
-        <p className='relative z-[1] w-full text-justify font-volkhov text-xl italic !leading-[1.7] sm:text-2xl lg:w-3/4'>
+        <p className='relative z-[1] w-full text-start font-volkhov text-xl italic !leading-[1.7] sm:text-justify sm:text-2xl lg:w-3/4'>
           Bali International Research Institute for the World (BiriWorld) is an
           independent research institute dedicated to: (i) enhancing society’s
           understanding of environmental sustainability, (ii) education, and

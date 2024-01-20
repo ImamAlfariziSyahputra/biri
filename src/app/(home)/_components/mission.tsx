@@ -21,7 +21,7 @@ export function Mission() {
             className='h-auto w-full object-cover'
             quality={100}
           />
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             <span className='font-semibold'>BiriWorld mission</span> is to
             provide a platform for innovation and collaboration to build a
             research environment of excellence, enriching lives locally,
@@ -32,7 +32,7 @@ export function Mission() {
           </p>
         </div>
         <div className='mb-16 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             As a research institution, we also aim to overcome traditional
             academic boundaries: fostering interdisciplinary pursuits, providing
             educational excellence, as well as inviting partners & enthusiastic

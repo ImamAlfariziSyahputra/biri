@@ -8,7 +8,7 @@ export function Section1() {
     <section className='py-16'>
       <div className='mx-auto w-[min(1140px,90%)]'>
         <div className='mb-16 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             <span className='font-semibold'>
               Bali, with its unique cultural and natural assets, has the
               potential to become a hub for the international research and
@@ -43,7 +43,7 @@ export function Section1() {
             className=' h-auto w-full object-cover'
             quality={100}
           />
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             Bali's vibrant cultural heritage and traditional wisdom make it an
             inspiring place for researchers to study and develop solutions for
             sustainable development. Local communities in Bali have long
@@ -54,7 +54,7 @@ export function Section1() {
           </p>
         </div>
         <div className='mb-10 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             Additionally, the traditional people of Bali strongly believe in the
             concept of Tri Kaya Parisudha, which promotes purity of thoughts,
             words, and deeds. This concept encourages individuals to reduce
@@ -75,7 +75,7 @@ export function Section1() {
             quality={100}
           />
         </div>
-        <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+        <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
           The traditional people of Bali have also embraced their cultural
           heritage and customs to address the challenges posed by climate
           change. Their deep respect for nature and adherence to Bali Customary

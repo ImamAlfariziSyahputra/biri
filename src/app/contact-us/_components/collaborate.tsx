@@ -28,7 +28,7 @@ export function Collaborate() {
             <p className='mb-8 text-center text-[2rem] uppercase tracking-widest md:text-start'>
               (Founder)
             </p>
-            <p className='text-justify font-volkhov italic leading-[2] text-foreground/80'>
+            <p className='text-start font-volkhov italic leading-[2] text-foreground/80 sm:text-justify'>
               Sarah Rosetta Aurelia is currently completing her final year of
               obtaining a BSc Neuroscience (Honours) at the University of St
               Andrews, United Kingdom. Sarah is extremely enthusiastic in
@@ -44,7 +44,7 @@ export function Collaborate() {
             </p>
           </div>
         </div>
-        <p className='flex flex-col items-start gap-x-4 text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-blue-800 sm:flex-row'>
+        <p className='flex flex-col items-start gap-x-4 text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-blue-800 sm:flex-row sm:text-justify'>
           <Image
             src={LsiiLogo}
             alt='Lsii Logo'

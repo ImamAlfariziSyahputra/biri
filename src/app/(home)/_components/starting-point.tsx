@@ -24,7 +24,7 @@ export function StartingPoint() {
             className='h-auto w-full object-cover'
             quality={100}
           />
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             Bali, an island located in Indonesia, is renowned for its unique
             culture and heritage. The people of Bali have a rich tradition,
             rooted in Hinduism, which significantly influences their daily life
@@ -34,7 +34,7 @@ export function StartingPoint() {
             their environment.
           </p>
         </div>
-        <p className='mb-6 text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+        <p className='mb-6 text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
           The traditional people of Bali deeply respect and worship nature. They
           believe in the concept of Tri Hita Karana, which emphasizes harmony
           and balance between humans, nature, and the spiritual world. This
@@ -42,7 +42,7 @@ export function StartingPoint() {
           and has motivated them to adopt sustainable practices.
         </p>
         <div className='mb-6 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             As a research institution, we also aim to overcome traditional
             academic boundaries: fostering interdisciplinary pursuits, providing
             educational excellence, as well as inviting partners & enthusiastic
@@ -67,7 +67,7 @@ export function StartingPoint() {
           />
         </div>
         <div className='mb-6 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             Additionally, the traditional people of Bali strongly believe in the
             concept of Tri Kaya Parisudha, which promotes purity of thoughts,
             words, and deeds. This concept encourages individuals to reduce
@@ -99,7 +99,7 @@ export function StartingPoint() {
             className='h-auto w-full object-cover'
             quality={100}
           />
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             Balinese traditional architecture also plays a significant role in
             adapting to climate change. The use of traditional materials like
             bamboo and thatch roofs helps regulate temperature and reduce energy
@@ -109,7 +109,7 @@ export function StartingPoint() {
           </p>
         </div>
         <div className='mb-12 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-foreground/80 sm:text-justify'>
             Furthermore, the traditional people of Bali place great importance
             on rituals and ceremonies to honor their ancestors and seek
             blessings from the gods. These rituals often involve offerings and
@@ -132,7 +132,7 @@ export function StartingPoint() {
             quality={100}
           />
         </div>
-        <p className='text-justify text-[1.25rem] !leading-relaxed tracking-[2px] text-[purple]'>
+        <p className='text-start text-[1.25rem] !leading-relaxed tracking-[2px] text-[purple] sm:text-justify'>
           In short, we believe that Bali is the Starting Point to build
           BiriWorld’s portfolio. It is because the traditional people of Bali
           have embraced their cultural heritage and customs to address the

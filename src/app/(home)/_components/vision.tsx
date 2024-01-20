@@ -26,7 +26,7 @@ export function Vision() {
         </div>
 
         <div className='mb-16 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80 sm:text-justify'>
             Located in Bali, Indonesia, BiriWorld centres itself around cultural
             and environmental diversity, sustainable practices, local/indigenous
             community engagement, and global relevance. Holding international
@@ -46,7 +46,7 @@ export function Vision() {
           />
         </div>
         <div className='grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:items-start'>
-          <p className='text-justify text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80 sm:text-justify'>
             Located in Bali, Indonesia, BiriWorld centres itself around cultural
             and environmental diversity, sustainable practices, local/indigenous
             community engagement, and global relevance. Holding international
@@ -79,7 +79,7 @@ export function Vision() {
             className='h-auto w-full object-cover'
             quality={100}
           />
-          <p className='text-justify text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80 sm:text-justify'>
             <span className='font-semibold'>Vision of BiriWorld</span> is to
             become a leading research and development institution in Indonesia
             (the world's fourth-most populous country) dedicated to studying and
@@ -102,7 +102,7 @@ export function Vision() {
             className='h-auto w-full object-cover'
             quality={100}
           />
-          <p className='text-justify text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80'>
+          <p className='text-start text-[1.25rem] !leading-[1.7] tracking-[2px] text-foreground/80 sm:text-justify'>
             Our vision stands as an unwavering commitment to innovation,
             collaboration, and open frontiers of knowledge. BiriWorld aspires to
             be a driving force for sustainable communities and agroecological
